@@ -2756,8 +2756,10 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
-  border-color: #28a745;
+  color: white;
+  border-color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .btn-outline-success:hover {
@@ -2972,7 +2974,8 @@ fieldset:disabled a.btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 20px;
+  width: 100%;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -4066,7 +4069,8 @@ input[type="button"].btn-block {
 }
 
 .nav-link:hover, .nav-link:focus {
-  text-decoration: none;
+  text-decoration: underline;
+  color: greenyellow;
 }
 
 .nav-link.disabled {
@@ -6508,7 +6512,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: none; !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,

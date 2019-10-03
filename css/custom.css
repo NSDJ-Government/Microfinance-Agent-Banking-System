@@ -25,3 +25,26 @@
     text-decoration: underline;
     
   }
+
+  .btn-danger1 {
+    color: blue;
+    background-color:white;
+    border-color:white;
+    width: 100%;
+    border-radius: 5.5rem;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  .btn-danger2 {
+    color: blue;
+    background-color: white;
+    border-color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  #footer {
+      text-align: center;
+      color: white;
+  }

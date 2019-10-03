@@ -7,30 +7,62 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/custom.css">
   <link href="icons/css/all.css" rel="stylesheet"> <!--load all styles -->
-  <title>MicroFinance - LandingPage</title>
+  <title>MicroFinance - Landing Page</title>
 </head>
 <body>
   <div class="example">  
   <div class="container-fluid">
     <nav class="navbar navbar-dark bg-primary">
         <a class="navbar-brand" id="header">
-            <img src="images/Final logo-1.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="images/Final logo-1.jpg" width="60" height="50" class="d-inline-block align-top" alt="">
             Microfinance Agent Banking System</a>
-        <form class="form-inline">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+        
+            <form class="form-inline">
+            <!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     Loans
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Business Loans</a>
+        <a class="dropdown-item" href="#">School Fees Loans</a>
+        <a class="dropdown-item" href="#">Emergency/ Instant Loans</a>
+        <a class="dropdown-item" href="#">Restructure</a>  
+    </div>&nbsp;
+      <!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Savings
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Savings Account</a>
+        <a class="dropdown-item" href="#">Pension</a>
+        <a class="dropdown-item" href="#">Insurance</a>
+        <a class="dropdown-item" href="#">Health</a>
+  </div>
+</div>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+              </div>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="login.html">Log In</button>
         </form>
       </nav>
       &nbsp;
   <div class="row">
     <div class="col-md-6">
       <div class="col">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carouselslide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="images/Happy-Market-Woman1.jpg" height="auto" class="d-block w-60" alt="...">
             </div>
             <div class="carousel-item">
               <img src="images/POS-Machine-Africa.jpg"  height="auto" class="d-block w-60" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/earn.jpg" width="900"  height="600" class="d-block w-60" alt="...">
             </div>
             <div class="carousel-item">
               <img src="images/graduation.family1.jpg"  height="auto" class="d-block w-60" alt="...">
@@ -49,11 +81,11 @@
     </div>
     <div class="col-sm">
       <div id="jubdron">
-        <h3 class="display-4">Earn as you change the community!</h3>
+        <h3 class="display-4">Earn as you Impact!</h3>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr class="my-4">
         <p>Building stronger communities.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">SignUp</a>
+        <a class="btn btn-danger1" href="signup.html" role="button">Sign Up</a>
         &nbsp;&nbsp;&nbsp;
         <ul class="nav justify-content-center">
             <li class="nav-item">
@@ -86,6 +118,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+    <p class="card-header" id="footer">&copy; Copyright 2019 Mabs<p>
   </div>
 </body>
 </html>

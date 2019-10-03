@@ -1,3 +1,8 @@
+body{
+    background-image: url("../images/Happy-Market-Woman.jpg");
+    background-size: cover;
+    
+}
 #header {
     color: aliceblue;
     font-weight: bolder;
@@ -25,3 +30,45 @@
     text-decoration: underline;
     
   }
+  .jumbotron {
+  width: 500px;
+  color: white;
+  padding: 30px;
+  margin-left: 8cm;
+
+  background-color: rgb(10, 79, 119);
+}
+.nav-link {
+  color: rgb(70, 42, 231);
+  background-color: none;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.container-sp {
+  justify-content: center;
+  background-image: url("../images/Happy-Market-Woman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header {
+  color: rgb(25, 117, 197);
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+}
+
+.form-control {
+  padding: 5px;
+}
+#but {
+  height: 40px;
+  width: 438px;
+}
+#bata {
+  border-color: rgb(25, 117, 197);
+  color: rgb(25, 117, 197);
+  font-weight: bold;
+}
+

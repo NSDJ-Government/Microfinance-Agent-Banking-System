@@ -14,6 +14,8 @@
 #jubdron {
     color: white;
     padding:5.5rem;
+    font-size: 15px;
+    
 
 }
 
@@ -27,7 +29,7 @@
   }
 
   .btn-danger1 {
-    color: blue;
+    color: dodgerblue;
     background-color:white;
     border-color:white;
     width: 100%;
@@ -37,7 +39,7 @@
   }
 
   .btn-danger2 {
-    color: blue;
+    color:dodgerblue;
     background-color: white;
     border-color: white;
     font-weight: bolder;
@@ -47,4 +49,14 @@
   #footer {
       text-align: center;
       color: white;
+  }
+
+  p {
+      font-size: 20px;
+      text-align: center;
+  }
+
+  p1 {
+      font-size: 20px;
+      text-align: center;
   }

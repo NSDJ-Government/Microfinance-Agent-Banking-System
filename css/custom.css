@@ -1,37 +1,41 @@
-body{
-    background-image: url("../images/Happy-Market-Woman.jpg");
-    background-size: cover;
-    
+body {
+  background-image: url("../images/Happy-Market-Woman.jpg");
+  background-size: cover;
 }
 #header {
-    color: aliceblue;
-    font-weight: bolder;
-    font-size: 25px;
-    text-align: center;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
 }
 
-.example{
-    background: #2c3e50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+.example {
+  background: #2c3e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3498db,
+    #2c3e50
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3498db,
+    #2c3e50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #jubdron {
-    color: white;
-    padding:5.5rem;
-
+  color: white;
+  padding: 5.5rem;
+  font-size: 15px;
 }
 
 .nav-link {
-    color: white;
-    background-color:none;
-    font-weight: bolder;
-    font-size: 20px;
-    text-decoration: underline;
-    
-  }
-<<<<<<< HEAD
-  .jumbotron {
+  color: white;
+  background-color: none;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.jumbotron {
   width: 500px;
   color: white;
   padding: 30px;
@@ -73,28 +77,74 @@ body{
   font-weight: bold;
 }
 
-=======
+.btn-danger1 {
+  color: dodgerblue;
+  background-color: white;
+  border-color: white;
+  width: 100%;
+  border-radius: 5.5rem;
+  font-weight: bolder;
+  font-size: 20px;
+}
 
-  .btn-danger1 {
-    color: blue;
-    background-color:white;
-    border-color:white;
-    width: 100%;
-    border-radius: 5.5rem;
-    font-weight: bolder;
-    font-size: 20px;
-  }
+.btn-danger2 {
+  color: dodgerblue;
+  background-color: white;
+  border-color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
 
-  .btn-danger2 {
-    color: blue;
-    background-color: white;
-    border-color: white;
-    font-weight: bolder;
-    font-size: 20px;
-  }
+p {
+  font-size: 20px;
+  text-align: center;
+}
 
-  #footer {
-      text-align: center;
-      color: white;
-  }
->>>>>>> 4c100b33566105c8b877de79dc401747334fed1d
+p1 {
+  font-size: 20px;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#txt {
+  font-weight: bolder;
+  color: white;
+}
+
+#dashboard {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+#text {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#btn-outline-success {
+  color: white;
+  border-color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#words {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}

@@ -36,7 +36,7 @@ function myFunction() {
     }
   }
     
-  
+ /* 
   function navigate_admin() {
     window.location.href = "welcomeAdmin.html";
   }
@@ -44,4 +44,4 @@ function myFunction() {
   function navigate_attendant() {
     window.location.href = "welcomeAgen.html";
   }
-  
+  */

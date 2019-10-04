@@ -25,63 +25,30 @@
           </button>
         </form>
       </nav>
-      <!--<div class="container"> <br> <br>
-      <div class="row">
-        <div class="col-sm">
-          <h3 id="build">Building Stronger Communities</h3>
-          <ul>
-            <li>Get a loan</li>
-            <li>Grow your business</li>
-            <li>Earn</li>
-            <li>Save with us</li>
-            <li>Obtain an insurance</li>
-            <li>Grow your portfolio</li>
-          </ul>
-        </div> -->
 
       <div class="jumbotron">
       
         <h3 id="h3">Welcome back to MABS!</h3>
         <h4 id="h4">Log In</h4>
 
-        <form>
+        <form name="login" method="POST">
             <div class="form-group">
               <label for="exampleInputEmail1">User name</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter user name">
+              <input type="text" class="form-control" id="exampleInputEmail1" name="username" aria-describedby="emailHelp" placeholder="Enter user name">
              
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Pin Code</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter pin code">
+              <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Enter pin code">
               <small id="emailHelp" class="form-text text">Your privacy is guaranteed.</small>
             </div>
             <div class="form-group form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Remember me</label>
             </div>
-            <button type="submit" class="btn btn-primary" id="log2">Log In</button>
+            <button type="submit" class="btn btn-primary" onclick="validate()" id="log2">Log In</button>
           </form>
-        <!--<form id="formlog">
-          Username: <input type="text" name="username" /> <br />
-          <br />
-          Pin Code: <input type="password" /> <br />
-          <br />
-          Log In as:
-          <select>
-            <option value="Admin">Admin</option>
-            <option value="Agent">Agent</option>
-          </select>
-          <br />
-          <br />
-          <form action="/action_page.php" method="get">
-            <input type="checkbox" name="password" value="remember" />Remember
-            me<br />
-          </form>
-          <br />
-          <form>
-            <button class="button" id="button">Login</button>
-          </form>
-        </form> -->
+        
         <br />
         <a href="insert link here" style="color: aliceblue">Forgot password?</a> <br />
         <br />

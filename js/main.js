@@ -45,3 +45,7 @@ function navigate_admin() {
 function navigate_attendant() {
   window.location.href = "welcomeAgent.html";
 }
+
+function logout() {
+  window.location = "index.html"; //redirecting to other page
+}
